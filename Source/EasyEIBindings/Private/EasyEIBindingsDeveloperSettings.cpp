@@ -9,7 +9,7 @@ UEasyEIBindingsDeveloperSettings::UEasyEIBindingsDeveloperSettings()
 	DefaultInputActionPath.Path = TEXT("/Game/Input");
 	InputActionPrefix = TEXT("IA_");
 
-	DefaultEnabledEvents = 22;
+	DefaultEnabledEvents = 17;
 
 	bGenerateBlueprintEvents = false;
 	bShowBindingStatus = true;

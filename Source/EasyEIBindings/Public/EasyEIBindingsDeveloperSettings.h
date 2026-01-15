@@ -9,7 +9,7 @@
 /**
  * Developer settings for EasyEI Bindings plugin configuration.
  */
-UCLASS(Config=EditorPerProjectUserSettings, meta=(DisplayName="Easy EI Bindings"))
+UCLASS(Config=Editor, meta=(DisplayName="Easy EI Bindings"))
 class EASYEIBINDINGS_API UEasyEIBindingsDeveloperSettings : public UDeveloperSettings
 {
 	GENERATED_BODY()
@@ -34,6 +34,4 @@ public:
 
 	UPROPERTY(Config, EditAnywhere, Category = "Editor")
 	bool bShowBindingStatus;
-
-	virtual FName GetCategoryName() const override { return TEXT("Plugins"); }
 };

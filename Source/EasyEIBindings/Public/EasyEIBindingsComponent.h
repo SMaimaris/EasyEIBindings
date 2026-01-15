@@ -26,7 +26,7 @@ struct FEasyEIBinding
 	// Bitmask of which trigger events to bind. Default: Triggered, Started, Completed
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Binding",
 		meta = (Bitmask, BitmaskEnum = "/Script/EnhancedInput.ETriggerEvent"))
-	int32 EnabledEvents = 22;
+	int32 EnabledEvents = 17;
 
 	bool IsEventEnabled(ETriggerEvent Event) const
 	{
