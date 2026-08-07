@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "Easy EI Bindings",
+	"Description": "Simplifies Enhanced Input setup with auto-binding by naming convention, C++ and Blueprint stub generation, and per-action trigger event selection.",
+	"Category": "Input",
+	"CreatedBy": "Stylianos Maimaris",
+	"CreatedByURL": "https://github.com/SMaimaris",
+	"DocsURL": "https://github.com/SMaimaris/EasyEIBindings",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/SMaimaris/EasyEIBindings/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "EasyEIBindings",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "EasyEIBindingsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
